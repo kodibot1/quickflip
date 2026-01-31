@@ -77,37 +77,40 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| CAM-01 | — | Pending |
-| CAM-02 | — | Pending |
-| CAM-03 | — | Pending |
-| CAM-04 | — | Pending |
-| CAM-05 | — | Pending |
-| AI-01 | — | Pending |
-| AI-02 | — | Pending |
-| AI-03 | — | Pending |
-| AI-04 | — | Pending |
-| AI-05 | — | Pending |
-| LIST-01 | — | Pending |
-| LIST-02 | — | Pending |
-| LIST-03 | — | Pending |
-| LIST-04 | — | Pending |
-| LIST-05 | — | Pending |
-| LIST-06 | — | Pending |
-| LIST-07 | — | Pending |
-| LIST-08 | — | Pending |
-| DASH-01 | — | Pending |
-| DASH-02 | — | Pending |
-| DASH-03 | — | Pending |
-| SET-01 | — | Pending |
-| SET-02 | — | Pending |
-| SET-03 | — | Pending |
-| SET-04 | — | Pending |
+| CAM-01 | Phase 2 | Pending |
+| CAM-02 | Phase 3 | Pending |
+| CAM-03 | Phase 3 | Pending |
+| CAM-04 | Phase 5 | Pending |
+| CAM-05 | Phase 5 | Pending |
+| AI-01 | Phase 6 | Pending |
+| AI-02 | Phase 6 | Pending |
+| AI-03 | Phase 6 | Pending |
+| AI-04 | Phase 6 | Pending |
+| AI-05 | Phase 7 | Pending |
+| LIST-01 | Phase 8 | Pending |
+| LIST-02 | Phase 8 | Pending |
+| LIST-03 | Phase 8 | Pending |
+| LIST-04 | Phase 8 | Pending |
+| LIST-05 | Phase 8 | Pending |
+| LIST-06 | Phase 8 | Pending |
+| LIST-07 | Phase 9 | Pending |
+| LIST-08 | Phase 9 | Pending |
+| DASH-01 | Phase 10 | Pending |
+| DASH-02 | Phase 10 | Pending |
+| DASH-03 | Phase 10 | Pending |
+| SET-01 | Phase 4 | Pending |
+| SET-02 | Phase 4 | Pending |
+| SET-03 | Phase 4 | Pending |
+| SET-04 | Phase 4 | Pending |
+| OFFQ-01 | Phase 11 | Pending |
+| OFFQ-02 | Phase 11 | Pending |
 
 **Coverage:**
 - v1 requirements: 25 total
-- Mapped to phases: 0
-- Unmapped: 25
+- Mapped to phases: 25
+- Unmapped: 0
+- v2 pulled into scope: 2 (OFFQ-01, OFFQ-02)
 
 ---
 *Requirements defined: 2026-01-31*
-*Last updated: 2026-01-31 after initial definition*
+*Last updated: 2026-01-31 after roadmap creation*
