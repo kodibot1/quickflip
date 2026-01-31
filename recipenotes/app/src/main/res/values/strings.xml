@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- strings.xml - All user-facing text strings.
+     Centralising strings here enables:
+     - Easy translation to other languages (create values-xx/ folders)
+     - Consistent wording across the app
+     - Compile-time checks for missing strings -->
+<resources>
+    <string name="app_name">RecipeNotes</string>
+
+    <!-- Navigation -->
+    <string name="tab_recipes">Recipes</string>
+    <string name="tab_meal_plan">Meal Plan</string>
+    <string name="tab_shopping">Shopping</string>
+
+    <!-- Recipe list -->
+    <string name="search_recipes">Search recipes&#8230;</string>
+    <string name="filter_all">All</string>
+    <string name="filter_favourites">Favourites</string>
+    <string name="no_recipes">No recipes yet</string>
+    <string name="no_recipes_hint">Tap + to add your first recipe</string>
+    <string name="no_results">No recipes found</string>
+    <string name="no_results_hint">Try a different search</string>
+
+    <!-- Recipe detail -->
+    <string name="prep_time">Prep: %d min</string>
+    <string name="cook_time">Cook: %d min</string>
+    <string name="servings">%d serving(s)</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="steps">Steps</string>
+    <string name="delete_recipe">Delete Recipe</string>
+    <string name="delete_confirm">Are you sure you want to delete \"%s\"? This cannot be undone.</string>
+
+    <!-- Recipe edit -->
+    <string name="new_recipe">New Recipe</string>
+    <string name="edit_recipe">Edit Recipe</string>
+    <string name="title_required">Title is required</string>
+    <string name="ingredient_required">Add at least one ingredient</string>
+    <string name="add_ingredient">+ Add Ingredient</string>
+    <string name="add_step">+ Add Step</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="change_photo">Change Photo</string>
+
+    <!-- Meal plan -->
+    <string name="generate_shopping_list">Shopping List</string>
+    <string name="choose_recipe">Choose Recipe</string>
+
+    <!-- Shopping list -->
+    <string name="shopping_list">Shopping List</string>
+    <string name="no_items">No items yet</string>
+    <string name="no_items_hint">Generate from meal plan or add items manually</string>
+    <string name="add_item">Add Item</string>
+    <string name="clear_checked">Clear checked items</string>
+    <string name="clear_all">Clear all items</string>
+
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="back">Back</string>
+    <string name="search">Search</string>
+</resources>

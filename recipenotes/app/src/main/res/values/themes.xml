@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- themes.xml - Minimal XML theme for the app launch/splash screen.
+     This theme is only active briefly before Compose takes over rendering.
+     Once setContent{} runs in MainActivity, the Compose theme (Theme.kt) handles everything.
+     We keep this simple - just a background color so the splash isn't jarring. -->
+<resources>
+    <style name="Theme.RecipeNotes" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
