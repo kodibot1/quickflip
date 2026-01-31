@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AndroidManifest.xml - Declares app components and permissions to the Android system.
+     Every Android app must have this file. It tells the OS:
+     - What the app's package name is (unique identifier on the device)
+     - What Activities (screens) the app has
+     - What permissions the app needs
+     - What the Application class is (for initialization) -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- READ_MEDIA_IMAGES: Required on Android 13+ to access photos from the gallery.
+         On older Android, READ_EXTERNAL_STORAGE would be needed instead,
+         but since our minSdk is 26 and we use the photo picker (which doesn't
+         need permissions on Android 11+), this is mainly for fallback. -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <application
+        android:name=".RecipeNotesApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RecipeNotes">
+
+        <!-- MainActivity is the single entry point for the app.
+             Jetpack Compose apps typically have just one Activity that hosts
+             all the composable screens (single-activity architecture). -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.RecipeNotes">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
