@@ -26,7 +26,7 @@ fun NavGraph(
                 modifier = Modifier.fillMaxSize(),
                 contentAlignment = Alignment.Center
             ) {
-                Text("Home Screen")
+                Text("Your Listings")
             }
         }
 
@@ -35,7 +35,7 @@ fun NavGraph(
                 modifier = Modifier.fillMaxSize(),
                 contentAlignment = Alignment.Center
             ) {
-                Text("Camera Screen")
+                Text("Snap & List")
             }
         }
 
@@ -50,7 +50,7 @@ fun NavGraph(
                 modifier = Modifier.fillMaxSize(),
                 contentAlignment = Alignment.Center
             ) {
-                Text("Listing Screen - ID: $listingId")
+                Text("Edit Listing #$listingId")
             }
         }
 
@@ -59,7 +59,7 @@ fun NavGraph(
                 modifier = Modifier.fillMaxSize(),
                 contentAlignment = Alignment.Center
             ) {
-                Text("Settings Screen")
+                Text("Settings")
             }
         }
     }
