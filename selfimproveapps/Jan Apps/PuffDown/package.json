@@ -1,0 +1,12 @@
+{
+  "name": "puffdown",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Quit vaping with PuffDown",
+  "scripts": {
+    "icons": "node generate-icons.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.2"
+  }
+}
